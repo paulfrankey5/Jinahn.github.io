@@ -1,9 +1,8 @@
 # Jinahn.github.io
-This is my personal portfolio showcasing the projects and skills I have developed throughout my studies in computer programming. It includes web development, database management, and various software engineering projects.
+Welcome to my personal portfolio, where I showcase the software projects and technical skills I've developed during my computer programming studies.
 
 # My Portfolio
-
-This repository showcases the projects I have worked on during my studies and open-source contributions.
+This repository highlights projects developed during my studies, focusing on web development, database systems, and software engineering practices.
 
 ## Projects
 
