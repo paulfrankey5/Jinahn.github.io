@@ -50,7 +50,7 @@ Software Engineering: Java, JavaFX, C#
 ## Skills
 - Web Development (HTML, CSS, JavaScript, ASP.NET Core, AJAX)
 - Database Management (MySQL, PostgreSQL,Cloud Database - Amazon RDS)
-- Open Source Contribution: GitHub, Collaborative Development
+- Open Source Contribution: Version Control with Git & GitHub, Collaborative Development
 - Cloud Computing: Amazon RDS, Azure Cloud Deployment
 
 ## Contact Information
