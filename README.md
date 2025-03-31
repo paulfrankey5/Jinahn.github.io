@@ -7,7 +7,7 @@ This repository showcases the projects I have worked on during my studies and op
 ## Projects
 
 ### [Smart Inventory Management System - COMP2139 Assignment 2](https://github.com/paulfrankey5/COMP2139_Assignment2.git) 
-![Smart Inventory Screenshot](https://github.com/paulfrankey5/Jinahn.github.io/blob/main/smartInventroyweb.png)
+![Smart Inventory Screenshot](https://raw.githubusercontent.com/paulfrankey5/Jinahn.github.io/main/smartInventroyweb.png)
 
 A full-stack web application developed as part of the COMP2139 course. It includes:
 - Inventory management system
