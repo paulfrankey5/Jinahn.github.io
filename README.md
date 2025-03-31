@@ -51,4 +51,4 @@ Software Engineering: Java, JavaFX, C#
 ## Contact Information
 - [LinkedIn](https://www.linkedin.com/in/jjin)
 - [GitHub](https://github.com/paulfrankey5)
-- Email: paulfrankey5@gmail.com
+- Email: 
