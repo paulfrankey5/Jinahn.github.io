@@ -33,6 +33,8 @@ Key Technologies:
 - Open Source Collaboration
 
 ### [HRM System - JavaFX](https://github.com/TanveerJ31/HRMSystem)
+<img src="https://github.com/paulfrankey5/Jinahn.github.io/blob/main/Payroll.png" alt="Payroll Screenshot" width="600"/>
+
 A JavaFX-based desktop application developed to manage human resources, focusing on:
 - Employee data management
 - Payroll calculation system
