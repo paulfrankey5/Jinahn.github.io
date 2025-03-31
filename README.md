@@ -7,7 +7,6 @@ This repository highlights projects developed during my studies, focusing on web
 ## Projects
 
 ### [Smart Inventory Management System - COMP2139 Assignment 2](https://github.com/paulfrankey5/COMP2139_Assignment2.git) 
-<img src="https://github.com/paulfrankey5/Jinahn.github.io/blob/main/smartInventroyweb.png" alt="Smart Inventory Screenshot" width="600"/>
 
 A full-stack web application developed as part of the COMP2139 course. It includes:
 - Inventory management system
@@ -19,6 +18,8 @@ Key Technologies:
 - ASP.NET Core MVC
 - Microsoft Azure
 - MySQL (Database)
+  
+<img src="https://github.com/paulfrankey5/Jinahn.github.io/blob/main/smartInventroyweb.png" alt="Smart Inventory Screenshot" width="600"/>
 
 ### [COMP2152 Labs: Open Source Development](https://github.com/paulfrankey5/comp2152_labs.git)
 - A collection of my open-source contributions made during the COMP2152 course. This repository includes:
@@ -32,7 +33,6 @@ Key Technologies:
 - Open Source Collaboration
 
 ### [HRM System - JavaFX](https://github.com/TanveerJ31/HRMSystem)
-<img src="https://github.com/paulfrankey5/Jinahn.github.io/blob/main/Payroll.png" alt="Payroll Screenshot" width="600"/>
 
 A JavaFX-based desktop application developed to manage human resources, focusing on:
 - Employee data management
@@ -43,6 +43,8 @@ Key Technologies:
 - JavaFX
 - MySQL (Database)
 - JavaScript
+
+<img src="https://github.com/paulfrankey5/Jinahn.github.io/blob/main/Payroll.png" alt="Payroll Screenshot" width="600"/>
 
 Software Engineering: Java, JavaFX, C#
 ## Skills
