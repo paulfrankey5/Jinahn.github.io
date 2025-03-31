@@ -18,7 +18,7 @@ Key Technologies:
 - ASP.NET Core MVC
 - Microsoft Azure
 - MySQL (Database)
-  
+- [Visit the Smart Inventory Management System](https://smartinventory-ezeydfg0ewfjgjc2.canadacentral-01.azurewebsites.net) 
 <img src="https://github.com/paulfrankey5/Jinahn.github.io/blob/main/smartInventroyweb.png" alt="Smart Inventory Screenshot" width="600"/>
 
 ### [COMP2152 Labs: Open Source Development](https://github.com/paulfrankey5/comp2152_labs.git)
