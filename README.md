@@ -49,6 +49,6 @@ Software Engineering: Java, JavaFX, C#
 - Cloud Computing: Amazon RDS, Azure Cloud Deployment
 
 ## Contact Information
-- [LinkedIn](https://www.linkedin.com/in/jjin)
+- [LinkedIn](https://www.linkedin.com/in/)
 - [GitHub](https://github.com/paulfrankey5)
 - Email: 
