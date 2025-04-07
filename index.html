@@ -26,56 +26,75 @@
       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
       width: 90%;
       max-width: 800px;
+      text-align: center;
     }
 
     .project-card h2 {
       margin-top: 0;
     }
 
+    .button-group {
+      margin-top: 15px;
+    }
+
     a.button {
       display: inline-block;
-      margin-top: 10px;
-      padding: 10px 15px;
+      padding: 10px 20px;
+      margin: 5px;
       background-color: #4CAF50;
       color: white;
       text-decoration: none;
       border-radius: 5px;
+      min-width: 140px;
+      font-size: 15px;
     }
 
     a.button:hover {
       background-color: #45a049;
+    }
+
+    img {
+      margin-top: 15px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     }
   </style>
 </head>
 <body>
 
   <header>
-    <h1>Jinah's Developer Portfolio</h1>
+    <h1>Jinah's Developer Portfolio</h1> 
     <p>Aspiring Web & Software Developer</p>
   </header>
 
   <div class="project-card">
     <h2>📦 Smart Inventory Management System</h2>
     <p>Full-stack web app using ASP.NET Core, MySQL, Azure</p>
-    <a class="button" href="https://github.com/paulfrankey5/COMP2139_Assignment1.git" target="_blank">View on GitHub</a>
-    <a class="button" href="https://youtu.be/-vDV6qss_Yw" target="_blank">🎥 Watch Demo</a>
-    <img src="smartInventroyweb.png" alt="Smart Inventory Screenshot" width="50%">
+    <div class="button-group">
+      <a class="button" href="https://github.com/paulfrankey5/COMP2139_Assignment1.git" target="_blank">View on GitHub</a>
+      <a class="button" href="https://youtu.be/-vDV6qss_Yw" target="_blank">🎥 Watch Demo</a>
+    </div>
+    <img src="smartInventroyweb.png" alt="Smart Inventory Screenshot" width="80%">
   </div>
 
   <div class="project-card">
     <h2>🧪 COMP2152 Open Source Labs</h2>
     <p>Python + GitHub collaboration and bug fixing practice</p>
-    <a class="button" href="https://github.com/paulfrankey5/comp2152_labs.git" target="_blank">View on GitHub</a>
-    <a class="button" href="https://www.youtube.com/watch?v=0zZXdSDeOdU" target="_blank">🎥 Watch Demo</a>
+    <div class="button-group">
+      <a class="button" href="https://github.com/paulfrankey5/comp2152_labs.git" target="_blank">View on GitHub</a>
+      <a class="button" href="https://www.youtube.com/watch?v=0zZXdSDeOdU" target="_blank">🎥 Watch Demo</a>
+    </div>
   </div>
 
   <div class="project-card">
     <h2>👥 HRM Payroll System (JavaFX)</h2>
     <p>Java desktop app to manage employee data and payroll</p>
-    <a class="button" href="https://github.com/TanveerJ31/HRMSystem" target="_blank">View on GitHub</a>
+    <div class="button-group">
+      <a class="button" href="https://github.com/TanveerJ31/HRMSystem" target="_blank">View on GitHub</a>
+      <a class="button" href="https://studio.youtube.com/video/2P0JTBT2SCA/edit" target="_blank">🎥 Watch Demo</a>
+    </div>
     <img src="Payroll.png" alt="Payroll App Screenshot" width="60%">
   </div>
 
 </body>
 </html>
-
