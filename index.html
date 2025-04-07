@@ -8,14 +8,32 @@
     body {
       margin: 0;
       font-family: Arial, sans-serif;
-      background-color: #e6f3fb; 
+      background-color: #e6f3fb;
     }
 
     header {
-      background-color: #87CEFA; 
+      background-color: #87CEFA;
       color: white;
       text-align: center;
       padding: 40px 20px;
+    }
+
+    nav {
+      background-color: #ffffff;
+      text-align: center;
+      padding: 10px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
     }
 
     .project-card {
@@ -63,11 +81,21 @@
 <body>
 
   <header>
-    <h1>Jinah's Developer Portfolio</h1> 
+    <h1>Jin's Developer Portfolio</h1>
     <p>Aspiring Web & Software Developer</p>
   </header>
 
-  <div class="project-card">
+  <nav>
+    <a href="#projects">Projects</a>
+    <a href="#about">About Me</a>
+    <a href="#goals">Career Goals</a>
+    <a href="#skills">Skills</a>
+    <a href="#experience">Experience</a>
+    <a href="#certifications">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="project-card" id="projects">
     <h2>📦 Smart Inventory Management System</h2>
     <p>Full-stack web app using ASP.NET Core, MySQL, Azure</p>
     <div class="button-group">
@@ -96,5 +124,54 @@
     <img src="Payroll.png" alt="Payroll App Screenshot" width="60%">
   </div>
 
+  <div class="project-card" id="about">
+    <h2>👩‍💻 About Me</h2>
+    <p>
+      I'm a computer programming student at George Brown College with a strong interest in database engineering and secure, scalable systems. I enjoy working with SQL, cloud platforms like Amazon RDS, and full-stack technologies such as ASP.NET Core and Python.
+    </p>
+  </div>
+
+  <div class="project-card" id="goals">
+    <h2>🎯 Career Goals</h2>
+    <p>
+      My short-term goal is to contribute to a development team as a junior developer or database analyst. Long-term, I aim to specialize in database security and optimization to support large-scale enterprise applications.
+    </p>
+  </div>
+
+  <div class="project-card" id="skills">
+    <h2>🛠️ Skills & Strengths</h2>
+    <ul style="text-align: left; max-width: 700px; margin: 0 auto;">
+      <li><strong>Database:</strong> SQL, MySQL, PostgreSQL, indexing, optimization</li>
+      <li><strong>Cloud:</strong> Amazon RDS (Certified), Azure deployment</li>
+      <li><strong>Languages:</strong> Python, JavaScript, C#, PHP, HTML</li>
+      <li><strong>Tools:</strong> MySQL Workbench, SSMS, Tableau</li>
+      <li><strong>Soft Skills:</strong> Communication, problem-solving, attention to detail</li>
+    </ul>
+  </div>
+
+  <div class="project-card" id="experience">
+    <h2>📌 Experience</h2>
+    <p><strong>Database Administrator Intern – Henkel Tech Solutions (June 2022 – Aug 2023)</strong></p>
+    <ul style="text-align: left; max-width: 700px; margin: 0 auto;">
+      <li>Maintained MySQL and PostgreSQL databases for operational data</li>
+      <li>Wrote optimized SQL queries for reporting and analysis</li>
+      <li>Assisted in cloud setup using Amazon RDS, improving performance</li>
+    </ul>
+  </div>
+
+  <div class="project-card" id="certifications">
+    <h2>📜 Certifications</h2>
+    <ul style="text-align: left; max-width: 700px; margin: 0 auto;">
+      <li>AWS Cloud Management Certification (Seoul, 2024)</li>
+      <li>MySQL Optimization Project – Reduced query time by 30%</li>
+    </ul>
+  </div>
+
+  <div class="project-card" id="contact">
+    <h2>📬 Contact Me</h2>
+    <p>If you'd like to connect, feel free to reach out via my <a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn profile</a>.</p>
+  </div>
+
 </body>
 </html>
+
