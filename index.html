@@ -2,63 +2,76 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Jinah's Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jinah's Developer Portfolio</title>
   <style>
-  body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #F0F8FF; 
-  }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #e6f3fb; /* 연한 하늘색 배경 */
+    }
 
-  header {
-    background: #87CEFA; 
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
+    header {
+      background-color: #87CEFA; /* SkyBlue */
+      color: white;
+      text-align: center;
+      padding: 40px 20px;
+    }
 
-  .project-card {
-    background: white;
-    padding: 20px;
-    margin-bottom: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-  }
+    .project-card {
+      background: white;
+      padding: 20px;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 90%;
+      max-width: 800px;
+    }
 
-  a.button {
-    display: inline-block;
-    background: #4CAF50;
-    color: white;
-    padding: 10px 15px;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-</style>
+    .project-card h2 {
+      margin-top: 0;
+    }
+
+    a.button {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 15px;
+      background-color: #4CAF50;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    a.button:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
+
   <header>
     <h1>Jinah's Developer Portfolio</h1>
     <p>Aspiring Web & Software Developer</p>
   </header>
-  <div class="container">
 
-    <div class="card">
-      <h2>📦 Smart Inventory Management System</h2>
-      <p>Full-stack web app using ASP.NET Core, MySQL, Azure</p>
-     <a href="https://github.com/paulfrankey5/SmartInventory" target="_blank">View on GitHub</a>
-    </div>
-
-    <div class="card">
-      <h2>🧪 COMP2152 Open Source Labs</h2>
-      <p>Python + GitHub collaboration and bug fixing practice</p>
-    </div>
-
-    <div class="card">
-      <h2>👥 HRM Payroll System (JavaFX)</h2>
-      <p>Java desktop app to manage employee data and payroll</p>
-    </div>
-
+  <div class="project-card">
+    <h2>📦 Smart Inventory Management System</h2>
+    <p>Full-stack web app using ASP.NET Core, MySQL, Azure</p>
+    <a class="button" href="https://github.com/paulfrankey5/SmartInventory" target="_blank">View on GitHub</a>
   </div>
+
+  <div class="project-card">
+    <h2>🧪 COMP2152 Open Source Labs</h2>
+    <p>Python + GitHub collaboration and bug fixing practice</p>
+    <a class="button" href="https://github.com/paulfrankey5/COMP2152-Labs" target="_blank">View on GitHub</a>
+  </div>
+
+  <div class="project-card">
+    <h2>👥 HRM Payroll System (JavaFX)</h2>
+    <p>Java desktop app to manage employee data and payroll</p>
+    <a class="button" href="https://github.com/paulfrankey5/HRM-JavaFX" target="_blank">View on GitHub</a>
+  </div>
+
 </body>
 </html>
+
